@@ -15,19 +15,23 @@ captures/
 *.apk
 output.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.nt.bz2
+*.tar.gz
+*.tgz
 
-# Keystore files
-*.jks
-*.keystore
+examples/cluster/joblib
+reuters/
+benchmarks/bench_covertype_data/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+*.prefs
+.pydevproject
+.idea
+.vscode
 
-# Android Profiling
-*.hprof
+*.c
+*.cpp
+
+!/**/src/**/*.c
+!/**/src/**/*.cpp
+*.sln
+*.pyproj
