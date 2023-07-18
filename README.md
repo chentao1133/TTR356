@@ -1,1 +1,1 @@
-# TTR356
+If you would like to add more data to your posts, such as author information or other meta data, simple add more fields to the front matter in your mdx files and add the field names to the getStaticProps function for the various pages that display posts. See also the official Next.js Blog Starter which served as the basis for this project.
