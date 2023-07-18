@@ -17,4 +17,4 @@
                 e.extra_compile_args += openmp_flag
                 e.extra_link_args += openmp_flag
 
-        build_ext.build_extensions(self)
+        
